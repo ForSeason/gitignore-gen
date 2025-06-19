@@ -1,0 +1,16 @@
+{
+  "name": "gitignore-gen",
+  "version": "0.1.0",
+  "description": "Smart .gitignore generator written in Rust (napi-rs)",
+  "main": "./index.js",
+  "scripts": {
+    "build": "napi build --release",
+    "test": "node test.js"
+  },
+  "dependencies": { "napi-build": "^2" },
+  "devDependencies": {
+    "napi": "^2",
+    "typescript": "^5"
+  },
+  "license": "MIT"
+}
